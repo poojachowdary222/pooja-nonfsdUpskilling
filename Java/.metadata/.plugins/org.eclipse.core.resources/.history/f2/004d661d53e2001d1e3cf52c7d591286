@@ -1,0 +1,13 @@
+package day3;
+
+public class SingleInhMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SingleInh1 inh = new SingleInh1();
+		
+		inh.eat();
+		inh.sleep();
+	}
+
+}

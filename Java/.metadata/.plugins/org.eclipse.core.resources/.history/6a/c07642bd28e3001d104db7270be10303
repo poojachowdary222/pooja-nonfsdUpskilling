@@ -1,0 +1,15 @@
+package day3;
+
+public class EmployeesMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Engineers e = new Engineers("ram",1,100000,"work");
+Managers m =  new Managers("sam",2,200000,"checking");
+Interns i =  new Interns("jan",3,30000,"learning");
+ e.diaplay();
+ m.diaplay();
+ i.diaplay();
+	}
+
+}

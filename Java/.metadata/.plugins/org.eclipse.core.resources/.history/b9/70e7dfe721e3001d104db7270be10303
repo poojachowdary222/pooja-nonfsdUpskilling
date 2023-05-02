@@ -1,0 +1,14 @@
+package day3;
+
+public class VehicleCar extends Vehicle {
+    private int numDoors;
+
+    public VehicleCar(String make, String model, String year, int numDoors) {
+        super(make, model, year);
+        this.numDoors = numDoors;
+    }
+
+    public int getNumDoors() {
+        return numDoors;
+    }
+}

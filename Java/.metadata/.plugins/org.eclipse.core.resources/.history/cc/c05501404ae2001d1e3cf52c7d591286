@@ -1,0 +1,14 @@
+package day3;
+
+public class EncapsulationDemo {
+
+	public static void main(String[] args) {
+        Person person1 = new Person();
+        person1.setName("John");
+        person1.setAge(30);
+
+        System.out.println("Person's name: " + person1.getName());
+        System.out.println("Person's age: " + person1.getAge());
+    }
+	
+}

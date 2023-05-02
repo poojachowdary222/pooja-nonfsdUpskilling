@@ -1,0 +1,18 @@
+package day3;
+
+
+//This is the Main.java file, which is located in the "com.example" package
+package com.example;
+
+import com.example.utilities.StringUtils;
+
+public class Package {
+public static void main(String[] args) {
+ String message = "Hello, world!";
+ String reversed = StringUtils.reverse(message);
+ System.out.println(reversed);
+}
+}
+
+	
+
